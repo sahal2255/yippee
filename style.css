@@ -1,0 +1,1026 @@
+*{
+    margin: 0;
+}
+a{
+ text-decoration: none;
+ color: white;
+
+}
+/* li{
+    text-decoration: none;
+    list-style: none;
+    line-height: 40px;
+} */
+.main-header{
+    display: flex;
+    background-color: #fe5000;
+    width: 100%;
+    height: 100px;
+}
+.container-menu{
+    /* background-color: aqua; */
+    margin: 10px 80px;
+}
+.main-logo{
+    width: 130px;
+    
+}
+.container-itc{
+    /* background-color: aqua; */
+    margin-left: 420px;
+}
+.itc-logo{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+}
+.home-menu{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    padding: 60px;
+    margin-left: 250px;
+    
+    width: 800px;
+    justify-content: space-around;
+    
+}
+.itctab-logo{
+    display: none;
+}
+
+
+.itcmob-logo{
+    display: none;
+    margin-left: -150px;
+ 
+}
+.centre-logo {
+    display: none;
+    padding-left: 40px;
+}
+.home-bar{
+    display: none;
+    background-color: #fe5000;
+    border-style: none;
+    color: white;
+    float: right;
+}
+/* .main-close{
+ background-color:  #fe5000; 
+ text-align: center;
+ height: 100%; 
+ transform: translateY(-100px);
+ padding-top: 50px;
+ 
+ 
+ display: none;
+} */
+        /* drop-menu-button */
+.dropbtn{
+    background-color: #fe5000;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropbtn{
+    display: none;
+}
+.dropbtn:hover,.dropbtn:focus{
+    background-color: #fe5000;
+}
+.home-bar{
+    position: relative;
+    display:inline-block;
+}
+.dropdown-content{
+    display: none;
+    /* align-items: center; */
+    position: absolute;
+    background-color: #fe5000;
+    min-width: 770px;
+    margin-left: -800px;
+    overflow: auto;
+    box-shadow: none;
+    z-index: 1;
+    text-align: center;
+    height: 600px;
+    padding-left: 150px;
+
+}
+.dropdown-content a{
+    color:white;
+    /* margin-left: -10px; */
+    padding: 12px 00px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown a:hover{
+    background-color: #db291d;
+}
+.show{
+    display: block;
+}
+.main-cross{
+    padding-left: 1500px;
+}
+.cross-close{
+  cursor: pointer;
+  margin-right: 0px;
+}
+.banner{
+    width: 100%;
+}
+.mobile-bann{
+    
+    display: none;
+    margin-top: -0px;
+    width: 100%;
+}
+.recipes-banner{
+    text-align: center;
+    padding-top: 15px;
+}
+.sub-banner{
+    width: 250px;
+}
+.first-para{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 24px;
+    color: #5f249f;
+}
+.yippee-items{
+    display: flex;
+    width: 75%;
+    padding-left: 300px;
+    
+}
+.image1{
+    width: 350px;
+    /* background-color: aqua; */
+    margin-left: 100px;
+}
+.images{
+   width: 25%;
+}
+.discrption{
+   padding-left: 180px;
+   width: 200px;
+    
+}
+.section2{
+    /* background-color: #db291d; */
+    height: 0px;
+    width: px;
+    border-top: 50px solid transparent;
+    border-right: 1873px solid #db291d;
+    border-bottom: px solid transparent;
+    margin-top: 50px;
+
+
+   /* clip-path: polygon(0.5%,100% 0,100% 100%,0,10%);
+   margin-top: 50px; */
+}
+.section3{
+    height: 800px;
+    background-color: #db291d;
+    border-top: #db291d;
+}
+.main-recipe-banner{
+    margin-left: 700px;
+    padding-top: 20px;
+}
+.banner-recipeweek{
+    width: 500px;
+    
+}
+.section4{
+  display: flex; 
+  
+}
+.preparation{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   margin-left: 350px;
+   padding-top: 20px;
+
+}
+ .head-prep{
+    color: white;
+    padding-top: 10px;
+ }
+ .head-prep{
+    padding-left: 40px;
+ }
+ .incredient{
+    margin-top: -250px;
+ }
+ .reci{
+    width: 550px;
+    padding: 40px;
+ }
+ .recipe-image{
+    margin-left: 100px;
+    margin-top: 30px;
+ }
+ .item-list{
+    margin-top: -450px;
+    margin-left: 390px;
+    color: white;
+    line-height: 30px;
+ }
+ /* curve-secction-banner */
+.section-5{
+    margin-top: 50px;
+}
+.curve-banner{
+    background-image: url(Image/Curves2x.2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+    
+    
+}
+.social-banner{
+    width: 300px;
+    margin-left: 780px;
+    margin-top: 20px;
+}
+.media-option{
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Brady Bunch Remastered", Sans-serif;
+    font-size: 18px;
+    color:#7c2529 ;
+}
+.find-header{
+    color:#7c2529 ;
+    font-family: "Brady Bunch Remastered", Sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 100px;
+}
+.media-icons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 750px;
+    margin-right: 750px;
+    
+}
+.facebook{
+    width: 50px;
+}
+.twitter{
+    width: 60px;
+}
+.instagram{
+    width: 50px;
+}
+.youtube{
+    width: 50px;
+}
+.footer{
+    background-color: #db291d;
+    height: 400px;
+    margin-top: 40px;
+}
+.sub-footer{
+    display: flex;
+    margin-left: 370px;
+    padding-top: 70px;
+}
+.footer-main-logo{
+    width: 130px;
+    
+}
+.main-footer-list{
+    color: white;
+    text-align: center;
+    
+}
+.footer-list{
+    list-style: none;
+    line-height: 40px;
+    padding-top: 20px;
+    padding-left: 90px;
+    font-size: 17px;
+    
+}
+.footer-heading{
+    padding-left: 90px;
+}
+
+.footer-itc-logo{
+    width: 70px;
+    padding-left: 90px;
+}
+.footer-section{
+    
+        
+        margin-top: 0px;
+        display: block;
+}
+.second-footer-section{
+    display: none;
+}
+.mobile-footer-section{
+    display: none;
+}
+.mobile-plate{
+    display: none;
+}
+.mobile-time{
+    display: none;
+}
+.more-know{
+    display: none;
+}
+.mobile-explore{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+    .itctab-logo{
+        display: block;
+        width: 80px;
+        height: 80px;
+        padding: 30px;
+        margin-left: -120px;
+     }
+     .main-logo{
+        display: none;
+        
+     }
+     .itcmob-logo{
+        display: none;
+     }
+     .home-menu{
+        display:none;
+    }
+    .itc-logo{
+        display: none;
+    }
+    .centre-logo{
+        display:block;
+        margin-left: 100px;
+        height: 130px;
+    }
+    .main-header{
+        height: 150px;
+        width: 100%;
+        
+       
+    }
+    .container-itc{
+        margin-right: 100px;
+    }
+    .home-bar{
+        display: block;
+        margin-left: -390px;
+        
+        margin-top: 50px;
+        /* background-color: black; */
+        font-size: 25px;
+    }
+    .dropbtn{
+        display: block;
+    }
+    .recipes-banner{
+        text-align: center;
+        padding-top: 15px;
+    }
+    .sub-banner{
+        width: 250px;
+    }
+    .first-para{
+        text-align: center;
+        padding-top: 20px;
+        font-size: 24px;
+        color: #5f249f;
+    }
+    .yippee-items{
+        display: flex;
+        width: 75%;
+        padding-left: 0px;
+        padding-top: 30px;
+        
+    }
+    .image1{
+        width: 230px;
+        /* background-color: aqua; */
+        margin-left: 15px;
+    }
+    .images{
+       width: 55%;
+    }
+    .discrption{
+       padding-left: 50px;
+       width: 200px;
+       padding-top: 20px;
+        
+    }
+    .section2{
+        /* background-color: #db291d; */
+        height: 0px;
+        width: px;
+        border-top: 50px solid transparent;
+        border-right: 768px solid #db291d;
+        border-bottom: px solid transparent;
+        margin-top: 50px;
+       
+    }
+    .main-recipe-banner{
+        margin-left: 150px;
+        padding-top: 20px;
+    }
+    .banner-recipeweek{
+        width: 500px;
+        
+    }
+    .section4{
+        display: flex; 
+        
+      }
+      .preparation{
+         display: grid;
+         grid-template-columns: 200px 250px;
+         margin-left: 1px;
+         padding-top: 20px;
+         
+      
+      }
+       .head-prep{
+          color: white;
+          padding-top:0px;
+       }
+       .head-prep{
+          padding-left: 10px;
+          line-height: 30px;
+       }
+       .incredient{
+          margin-top: -250px;
+       }
+       .reci{
+          width: 290px;
+          padding: 150px;
+          padding-left: 220px;
+          
+       }
+       .recipe-image{
+          margin-left: -350px;
+          margin-top: 30px;
+        
+          
+       }
+       .item-list{
+          margin-top: -460px;
+          margin-left: 10px;
+          color: white;
+          line-height: 30px;
+       }
+       .first-list{
+        padding-left: 20px;
+       }
+       .section-5{
+        margin-top: 50px;
+    }
+    /* .curve-banner */
+    .curve-banner{
+        background-image: url(Image/Curves2x.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 400px;
+        
+        
+    }
+    .social-banner{
+        width: 300px;
+        margin-left: 230px;
+        margin-top: 20px;
+    }
+    .media-option{
+        text-align: center;
+        margin-top: 20px;
+        font-family: "Brady Bunch Remastered", Sans-serif;
+        font-size: 18px;
+        color:#7c2529 ;
+    }
+    .find-header{
+        color:#7c2529 ;
+        font-family: "Brady Bunch Remastered", Sans-serif;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 100px;
+    }
+    .media-icons{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-left: 200px;
+        margin-right: 200px;
+        
+    }
+    .facebook{
+        width: 50px;
+    }
+    .twitter{
+        width: 60px;
+    }
+    .instagram{
+        width: 50px;
+    }
+    .youtube{
+        width: 50px;
+    }
+    .footer{
+        background-color: #db291d;
+        height: 600px;
+        margin-top: 40px;
+        display: none;
+    }
+.footer-section{
+    display: none;
+}
+.second-footer-section{
+    background-color: #db291d;
+        height: 600px;
+        margin-top: 40px;
+        display: block;
+}
+.image-footer{
+    margin-left: 300px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.footer-yippiee-logo{
+  width: 150px;  
+    
+}
+.second-list{
+    display: flex;
+    color: white;
+    margin-left: 0px;
+    margin-top: 30px;
+}
+.second-item-list{
+    list-style: none;
+    line-height:24.5px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 17px;
+}
+.header-second-foot-1{
+    padding-left: 80px;
+}
+.header-second-foot-2{
+    padding-left: 80px;
+}
+.header-second-foot-3{
+    padding-left: 120px;
+}
+.section-last{
+    margin-left: 300px;
+    margin-top: 50px;
+}
+.last-itc-logo{
+    width: 90px;
+}
+.mobile-footer-section{
+    display: none;
+}
+.mobile-plate{
+    display: none;
+}
+.mobile-time{
+    display: none;
+}
+.more-know{
+    display: none;
+}
+.mobile-explore{
+    display: none;
+}
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:428px) {
+    .itcmob-logo{
+        display:block;
+        width: 80px;
+        height: 80px;
+        padding-top: 10px;
+    } 
+     .main-logo{
+        display: none;
+     } 
+     .itctab-logo{
+        display: none;
+        
+        
+     }
+     .main-header{
+        height: 100px;
+        width: 100%;
+        
+       
+    }
+     .home-menu{
+        display: none;
+     }
+     .itc-logo{
+        display: none;
+     }
+      .centre-logo{
+        display: block;
+        width: 90px;
+        height: 90px;
+        margin-left: 30px;
+        /* padding-left: 30px; */
+      }
+      .home-bar{
+        display: block;
+        margin-left: -450px;
+        
+        margin-top: 40px;
+        /* background-color: black; */
+        font-size: 25px;
+    
+      }
+      .home-bar{
+        display: none;
+        background-color: #fe5000;
+        border-style: none;
+        color: white;
+    }
+    /* .main-close{
+     background-color:  #fe5000; 
+     text-align: center;
+     height: 100%; 
+     transform: translateY(-100px);
+     padding-top: 50px;
+     
+     
+     display: none;
+    } */
+            /* drop-menu-button */
+    .dropbtn{
+        background-color: #fe5000;
+        color: white;
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+    .dropbtn{
+        display: block;
+    }
+    .dropbtn:hover,.dropbtn:focus{
+        background-color: #fe5000;
+    }
+    .home-bar{
+        position: relative;
+        display:inline-block;
+    }
+    .dropdown-content{
+        display: none;
+        /* align-items: center; */
+        position: absolute;
+        background-color: #fe5000;
+        min-width: 350px;
+        margin-left: -700px;
+        overflow: auto;
+        box-shadow: none;
+        z-index: 1;
+        text-align: center;
+        height: 650px;
+        padding-left: 420px;
+    
+    }
+    .dropdown-content a{
+        color:white;
+        /* margin-left: -10px; */
+        padding: 12px 00px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown a:hover{
+        background-color: #db291d;
+    }
+    .show{
+        display: block;
+    }
+      .first-para{
+        color: #5f249f;
+        /* background-color: #fe5000; */
+      }
+      .mobile-bann{
+        display: block;
+    }
+    .banner{
+        display: none;
+    }
+    .yippee-items{
+        display: grid;
+        width: 100%;
+        /* padding-left: 20px; */
+        /* background-color: blue; */
+       
+    }
+    .image1{
+        width: 350px;
+        /* background-color: aqua; */
+        padding-left: 5px;
+    }
+    .images{
+       
+       
+       /* background-color: bisque; */
+
+    }
+    .discrption{
+        padding-left: 90px;
+        width: 200px;
+        /* background-color: #fe5000; */
+        
+         
+     }
+     .section2{
+        
+        height: 0px;
+        width:0px;
+        border-top: 50px solid transparent;
+        border-right:390px solid #db291d;
+        border-bottom: 0px solid transparent;
+        margin-top: 40px;
+        
+        
+     }
+     .section3{
+        height: 500px;
+        width: 100%;
+        background-color: #db291d;
+        border-top: #db291d;
+    }
+    .main-recipe-banner{
+        margin-left: 30px;
+        padding-top: 20px;
+        margin-right: 30px;
+        /* background-color: aquamarine; */
+    }
+    .banner-recipeweek{
+        width: 300px; 
+        /* background-color: aqua; */
+    }
+    .section4{
+        display: flex; 
+        display: none;
+        
+      }
+      .preparation{
+         display: grid;
+         grid-template-columns: 200px 200px;
+         margin-left: 1px;
+         padding-top: 20px;
+       
+      
+      }
+      .sub-preparation{
+        margin-left: -45px;
+        margin-right: 20px;
+        /* background-color: aqua; */
+      }
+       .head-prep{
+          color: white;
+          margin-top:200px;
+          font-size: 14px;
+          /* background-color: aqua; */
+          padding-left: 10px;
+          line-height: 30px;
+       }
+       .incredient{
+          margin-top: -250px;
+          display: none;
+       }
+       .reci{
+          width: 250px;
+          
+          /* background-color: aqua; */
+          
+        
+          
+       }
+       .recipe-image{
+          margin-left: -300px;
+          margin-top: -150px;
+          
+          
+         
+         }
+       .item-list{
+          margin-top: -460px;
+          margin-left: 10px;
+          color: white;
+          line-height: 30px;
+          /* display: none; */
+       }
+       .for-lolli{
+        display: none;
+       }
+       .first-list{
+        padding-left: 20px;
+        display: none;
+       }
+       .show-more{
+        display: none;
+       }
+       .mobile-plate{
+        margin-top: 500px;
+        margin-left: 50px;
+        /* background-color: aquamarine; */
+       }
+       .mobile-time{
+        display: flex;
+        
+       }
+       .mobile-plate{
+        display: block;
+    }
+   
+    .more-know{
+        display:block;
+    }
+    .mobile-explore{
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+        display: block;
+    }
+    
+       .sub-prep{
+        color: white;
+        font-size: 14px;
+       }
+       .sub-prep1{
+        color: white;
+        font-size: 14px;
+        padding-left: 20px;
+       }
+       .more-know{
+        padding-top: 15px;
+        color: white;
+        font-size: 14px;
+       }
+       .mobile-recip{
+        width: 300px;
+        
+       }
+       .explore-section{
+        text-align: center;
+        display: block;
+        margin-top: 400px;
+        /* background-color: aquamarine; */
+        margin-right: 10px;
+        display: none;
+        
+       } 
+       /* .curve-banner */
+       .section-5{
+        margin-top: 100px;
+        
+       }
+      
+       .curve-banner{
+        background-image: url(Image/Curves2x.png);
+        background-size: 100%;
+        margin-top: 50px;
+        background-repeat: no-repeat;
+        height: 600px;
+        
+        
+    }
+    .social-banner{
+        width: 300px;
+        margin-left: 40px;
+        margin-top: -60px;
+        /* background-color: aqua; */
+        
+    }
+    .media-option{
+        text-align: center;
+        margin-top: 20px;
+        font-family: "Brady Bunch Remastered", Sans-serif;
+        font-size: 18px;
+        color:#7c2529 ;
+        /* background-color: aqua; */
+    }
+    .find-header{
+        color:#7c2529 ;
+        font-family: "Brady Bunch Remastered", Sans-serif;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 50px;
+        /* background-color: aqua; */
+        
+    }
+    .media-icons{
+        display: grid;
+        grid-template-columns: 100px 100px;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-left: 90px;
+        margin-right: 60px;
+        /* background-color: aqua; */
+       
+        
+        
+    }
+    .facebook{
+        width: 50px;
+    }
+    .twitter{
+        width: 60px;
+    }
+    .instagram{
+        width: 50px;
+    }
+    .youtube{
+        width: 50px;
+    }
+    .footer-section{
+        display: none;
+    }
+    .second-footer-section{
+        display: none;
+    }
+    .mobile-footer-section{
+        background-color: #db291d;
+        height: 1000px;
+        margin-top: -240px;
+        display: block;
+    }
+    .mobile-yippiee-logo{
+        margin-left:  120px;
+        padding-top: 50px;
+    }
+    .mobile-logo{
+        width: 150px;
+        
+    }
+    .main-list-mobile{
+        color: white;
+        text-align: center;
+    }
+    .mobile-list{
+        list-style: none;
+        line-height: 34.5px;
+    }
+    .mobile-footer-header{
+        padding-left: 50px;
+    }
+    .mobile-itc{
+        width: 80px;
+    }
+} 
+
+     
+      
+
